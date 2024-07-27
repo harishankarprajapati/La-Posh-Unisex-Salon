@@ -605,11 +605,35 @@ background: linear-gradient(0deg, rgba(255,250,203,1) 0%, rgba(251,204,49,1) 100
   flex-direction: column;
   justify-content: center;
 }
+.secfooter2bg{
+  background: #FBCC31;
+  padding: 20px 0px;
+}
+.secfooterulli {
+  display: flex;
+  margin: 0;
+}
+.secfooterulli li {
+list-style: none;
+}
+.secfooterulli li a {
+  font-family: 'Archivo';
+  font-size: 15px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0px 10px;
+  }
+.seccopyright{
+  font-family: 'Archivo';
+  font-size: 16px;
+  color: #000;
+}
 
-
-
-
-
+.secfootrbg3{
+  background-color: #000;
+  padding: 20px;
+}
 
 
 
