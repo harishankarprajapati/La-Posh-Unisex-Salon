@@ -6,7 +6,9 @@
   .container-fluid {
     width: 1903px;
     margin: auto;
-    margin-bottom: -53px;
+  }
+ .sec-menu-bgg{
+  margin-bottom: -110px;
   }
 
 }
