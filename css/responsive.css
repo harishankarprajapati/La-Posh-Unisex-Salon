@@ -10,8 +10,179 @@
  .sec-menu-bgg{
   margin-bottom: -110px;
   }
+  .heropagebgg h1{
+    font-family: 'Rufina';
+    font-size: 80px;
+    color: #000;
+    }
+.allherobg  h1{
+  font-family: 'Rufina';
+  font-size: 80px;
+  color: #000;
+  }
+  .secallpadd{
+    padding: 80px 0px;
+  }
+  .secownerbg{
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width:1199px) {
+  .offcanvas-header {
+    background: #000;
+}
+button.navbar-toggler {
+  background: #000;
+  height: 55px;
+}
+.navbar-nav.justify-content-center.align-items-center.flex-grow-1.pe-3 {
+  display: flex;
+  align-items: flex-start !important;
+}
+.headermenusec {
+  color: #000;
+  padding-bottom: 15px;
+}
+.secboxbtnbg h4 {
+  font-size: 17px;
+}
+.secfooterulli li a {
+  font-size: 12px;
+}
+.socallin a {
+  font-size: 14px;
+}
+.footerhr {
+  width: 84%;
+}
+.footertext a {
+  font-size: 11px;
+}
+.secchootext h3 {
+  font-size: 35px;
+}
+.chooprobg {
+  padding: 16px 16px;
+}
+.secweoff {
+  font-size: 40px;
+}
+.secownertrxt h3 {
+  font-size: 36px;
+}
+.secmiss {
+  font-size: 40px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:991px) {
+  
+  .offcanvas-header {
+    background: #000;
+}
+button.navbar-toggler {
+  background: #000;
+  height: 55px;
+}
+.navbar-nav.justify-content-center.align-items-center.flex-grow-1.pe-3 {
+  display: flex;
+  align-items: flex-start !important;
+}
+.headermenusec {
+  color: #000;
+  padding-bottom: 15px;
+}
+.secserw{
+  width: 50%;
+}
+.servimg img {
+  width: 100%;
+}
+.secwe {
+  width: 50%;
+}
+.secfeloff{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.owl-dots{
+  display: none;
+}
+.sec-sev-book-p {
+  text-align: start;
+}
+.sec-cent-c {
+  margin-bottom: 20px;
+}
+.secownertrxt {
+  padding-top: 50px;
+}
+.secgaalcol {
+  align-items: stretch;
+}
+.secgaalcol img{
+  width: 100%;
+}
+.secgaalcol p{
+  padding-bottom: 20px;
+  margin: 0;
+}
+.seccountext {
+  border: 1px solid #F4C6AF;
+  height: 203px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
+.secmibmar {
+  padding-left: 10px;
+}
+.secmiss{
+  font-size: 35px;
+}
+.secfooterulli {
+  justify-content: center;
+}
+.secfooterulli li a {
+  font-size: 15px;
+}
+.footerhr {
+  width: 45%;
+}
+.footertext a {
+  font-size: 16px;
+}
+.secchootext h3 {
+  font-size: 35px;
+}
+.chooprobg {
+  padding: 20px 25px;
+}
+
+
+
+
+
+
 
 
 
@@ -26,9 +197,10 @@
   }
   .secimgheromobile{
     display: block;
+    
   }
   .secbtnhero {
-    padding-bottom: 22px;
+    padding-bottom: 60px;
 }
 .heroslider .owl-nav , .owl-dots{
   display: none;
@@ -54,56 +226,234 @@ div#navbarOffcanvas {
   .secherotext h1 {
     font-size: 28px;
   }
-  .headermenusec {
-    color: #000;
-    margin-left: 0px;
-    padding-bottom: 20px;
+  .secfooterulli {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
 }
-.headmenu2 {
-  background:transparent;
-  border: 0px;
+li.active a {
+  background: transparent !important;
+  color: #000 !important;
+}
+.headermenusec {
   color: #000;
-  padding: 0;
-  margin-top: -18px;
-  text-transform: capitalize;
+  padding-bottom: 15px;
 }
-.secherotext p {
+.navbar-nav.justify-content-center.align-items-center.flex-grow-1.pe-3 {
+  display: flex;
+  align-items: flex-start !important;
+}
+.heropagebgg h1 {
+  font-size: 30px;
+}
+.heropagebgg p {
+  font-size: 14px;
+}
+.secserverbg {
+  padding: 20px 0px 165px 0px;
+  margin-top: 0px;
+}
+.secserverbg h2 {
+  font-size: 35px;
+}
+#exTab1 ul.nav.nav-pills li a {
   font-size: 16px;
+  background-color:#fff !important;
+  color: #000 !important;
+}
+#exTab1 ul.nav.nav-pills li a {
+  font-size: 16px;
+  background-color:#fff !important;
+  color: #000 !important;
+}
+.servimg img{
   width: 100%;
 }
-.seccountermar {
-  margin-top: 50px;
+.servboxtext{
+  margin-bottom: 30px;
 }
-.counter-box {
+.secboxbtnbg2 {
+  margin-top: -60px;
+}
+.secchootext h3 {
+  font-size: 31px;
+}
+.secwe{
+  width: 50%;
+}
+.chooprobg {
+  padding: 10px;
+}
+.chooprobg h3 {
+  font-size: 18px;
+}
+.chooprobg p {
+  font-size: 12px;
+}
+.gallpad {
+  padding: 15px;
+}
+.scetalbg {
+  padding: 50px 0px 107px 0px;
+}
+.secoffbgg {
+  margin-bottom: 30px;
+}
+.secoffbgg p {
+  padding: 20px 0px;
+}
+.secoffbgg h4 {
+  font-size: 35px;
+}
+.secoffbgg2 h4 {
+  font-size: 30px;
+}
+.swecimgoffer2 {
+  margin-top: -20px;
+}
+.secnon{
+  display:none;
+}
+.ourtembg {
+  padding: 50px 0px;
+}
+.secteamtext h3 {
+  font-size: 32px;
+}
+.ourteamtext img {
+  width: 55% !important;
+}
+.instagram h3 {
+  font-size: 20px;
+}
+.secfootrbg {
+  padding: 80px 0px 30px 0px;
+}
+.footerhr {
+  width: 95%;
+  color: #995A32;
+}
+.seccopyright {
+  font-size: 13px;
+  margin: 0;
+}
+.footertimetext {
+  padding-bottom: 0;
+  margin: 0;
+}
+p.footertext {
+  margin: 6px 0px;
+}
+.secfootrbg3 {
+  background-color: #000;
+  padding: 10px;
+}
+.serbook {
+  padding: 50px 10px;
+}
+.secsedserv {
+  padding: 20px 10px;
+}
+.sec-bord-serv {
   text-align: center;
 }
-.secallpaddin {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.sec-sev-book-p{
+  text-align: center;
 }
-.textviewbtn2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 50px;
+.sec-sev-book-h {
+  font-size: 18px;
 }
-.twoslider .owl-nav {
-  margin-top: -510px;
-  margin-bottom: 470px;
+.sec-menu-btn22 {
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 11px 15px;
 }
-.secpriseflaex {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 50px;
+.secallpadd {
+  padding: 50px 15px;
 }
-.allheadertext22 h1 {
-  font-size: 28px;
+.secweoff {
+  font-size: 23px;
 }
-.sidersec2 {
-  margin-left: 12px;
+.secownertrxt h3 {
+  font-size: 30px;
+  padding-top: 20px;
 }
-.secpadboot {
-  padding-bottom: 50px;
+.secownerbg {
+  padding-bottom: 20px;
+}
+.seccolorbox {
+  height: 348px;
+}
+.secgaalcol p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+.seccountext p {
+  font-size: 12px;
+}
+.seccountext h4 {
+  font-size: 45px;
+}
+.secmardgall {
+  margin-bottom: -179px;
+}
+.seccountext {
+  border: 1px solid #F4C6AF;
+  height: 140px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.missbgg {
+  padding: 30px 0px;
+}
+.secmiss {
+  font-size: 26px;
+  color: #000;
+}
+.secmibmar {
+  padding-left: 10px;
+}
+.secmibbtext h4 {
+  font-size: 25px;
+}
+.secmibbtext p , .secmiss2{
+  font-size: 16px;
+}
+.testimonial img {
+  width: 50% !important;
+}
+.secmarge {
+  margin-bottom: 50px;
+}
+.ourteamtext h4 {
+  font-size: 20px;
+}
+.ourteamtext p {
+  font-size: 14px;
+}
+.secgalleypage {
+  padding: 60px 15px;
+}
+.secgallermar {
+  margin-top: 0px !important;
+}
+.secvideobg iframe{
+  width: 100%;
+  height: 250px;
+}
+.secmobile{
+  padding-top: 40px;
+}
+.secserw {
+  width: 100%;
+}
+.sec-cent-c {
+  margin-bottom: 0px;
+}
+.secownertrxt {
+  padding-top: 20px;
 }
 
+}
 }
