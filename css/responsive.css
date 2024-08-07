@@ -192,6 +192,21 @@ button.navbar-toggler {
 
 @media only screen and (max-width:767px) {
 
+  img.img-fluid.sec-logo-img {
+    width: 51%;
+}
+.sec-menu-bgg {
+  background: #000;
+  margin-bottom: -37px;
+}
+.allherobg {
+  padding: 52px 50px 200px 50px;
+}
+
+.heropagebgg {
+  padding-top: 53px;
+}
+
   .secimghero{
     display: none;
   }
