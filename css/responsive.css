@@ -260,10 +260,14 @@ li.active a {
   align-items: flex-start !important;
 }
 .heropagebgg h1 {
-  font-size: 30px;
+  font-size: 35px;
 }
 .heropagebgg p {
-  font-size: 14px;
+  font-size: 16px;
+}
+.secbtnhero a {
+  font-size: 20px;
+
 }
 .secserverbg {
   padding: 20px 0px 165px 0px;
