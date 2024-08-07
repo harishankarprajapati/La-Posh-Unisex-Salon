@@ -267,11 +267,14 @@ li.active a {
 }
 .secbtnhero a {
   font-size: 20px;
-
+}
+.heropagebgg {
+  background-size: inherit !important;
 }
 .secserverbg {
-  padding: 20px 0px 165px 0px;
-  margin-top: 0px;
+  padding: 100px 0px 165px 0px !important;
+  margin-top: -71px !important;
+  
 }
 .secserverbg h2 {
   font-size: 35px;
