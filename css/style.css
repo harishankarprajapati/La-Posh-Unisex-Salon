@@ -405,6 +405,9 @@ ul.nav.nav-pills {
   padding: 20px 20px 0px 20px;
   border-radius: 15px;
   text-align: center;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .secoffbgg p {
