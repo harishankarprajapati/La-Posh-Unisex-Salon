@@ -306,6 +306,11 @@ li.active a {
 }
 .chooprobg {
   padding: 10px;
+  height: 200px;
+}
+.secwhychoosebg {
+  padding: 50px 0px 50px 0px;
+  margin-bottom: 50px;
 }
 .chooprobg h3 {
   font-size: 18px;
@@ -318,6 +323,7 @@ li.active a {
 }
 .scetalbg {
   padding: 50px 0px 107px 0px;
+  margin-top: 50px;
 }
 .secoffbgg {
   margin-bottom: 30px;
@@ -395,11 +401,14 @@ p.footertext {
   padding: 50px 15px;
 }
 .secweoff {
-  font-size: 23px;
+  font-size: 25px;
 }
 .secownertrxt h3 {
   font-size: 30px;
   padding-top: 20px;
+}
+.allherobg h1 {
+  font-size: 40px;
 }
 .secownerbg {
   padding-bottom: 20px;
