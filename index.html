@@ -586,27 +586,44 @@
     </div>
     <!-- offer -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4  secfeloff">
-                <div class="secoffbgg">
-                  <img class="img-fluid" src="images/newoff.jpg" alt="">
 
+            <div class="owl-carousel offernew owl-theme">
+                <div class="item">
+                    <div class="  secfeloff">
+                        <div class="secoffbgg">
+                          <img class="img-fluid secimg1" src="images/newoff.jpg" alt="">
+        
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4  secfeloff">
-                <div class="secoffbgg">
-                  <img class="img-fluid" src="images/newoff2.jpg" alt="">
-
+                <div class="item">
+                    <div class="  secfeloff">
+                        <div class="secoffbgg">
+                          <img class="img-fluid secimg2" src="images/newoff2.jpg" alt="">
+        
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4  secfeloff">
-                <div class="secoffbgg">
-                  <img class="img-fluid" src="images/newoff3.jpg" alt="">
-
+                <div class="item">
+                    <div class=" secfeloff">
+                        <div class="secoffbgg">
+                          <img class="img-fluid secimg3" src="images/newoff3.jpg" alt="">
+        
+                        </div>
+                    </div>
                 </div>
+                <div class="item">
+                    <div class=" secfeloff">
+                        <div class="secoffbgg">
+                          <img class="img-fluid secimg4" src="images/newoff4.jpg" alt="">
+        
+                        </div>
+                    </div>
+                </div>
+               
             </div>
           
-        </div>
+       
     </div>
     <!-- Our teams -->
     <div class="container ourtembg">
@@ -671,6 +688,23 @@
     <script src='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js'></script>
 
     <script>
+
+$('.owl-carousel.offernew').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:3
+        }
+    }
+})
 
 
         $('.owl-carousel.Instagram').owlCarousel({
