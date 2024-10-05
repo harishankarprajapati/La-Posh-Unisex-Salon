@@ -398,7 +398,7 @@ ul.nav.nav-pills {
 .testimonial .owl-dots.disabled {
   display: none;
 }
-
+/* 
 .secoffbgg {
   background: rgb(255, 223, 199);
   background: linear-gradient(0deg, rgba(255, 223, 199, 1) 0%, rgba(191, 126, 93, 1) 100%);
@@ -437,7 +437,7 @@ ul.nav.nav-pills {
   font-family: 'Poppins';
   font-size: 18px;
   text-transform: capitalize;
-}
+} */
 
 
 .secoffbgg2 {
@@ -1008,4 +1008,24 @@ color: #000;
 }
 .secfeloff{
   display: flex;
+}
+
+.secoffbgg{
+  width:500px;
+  height:550px;
+  box-shadow:0 0 8px #888;
+  overflow:hidden;
+  margin:0px auto;
+  border-radius:4px;
+}
+.secoffbgg img{
+  width:495px;
+  padding:10px;
+  object-fit:cover;
+  transition:ease-in-out 3s;
+  position:relative;
+  top:0;
+}
+.secoffbgg:hover img{
+  top:-130%;
 }
