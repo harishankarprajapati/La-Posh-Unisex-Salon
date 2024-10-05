@@ -1069,6 +1069,24 @@ border-radius: 50px;
 
   }
 
+  @media only screen and (min-width:1920px) {
+    .secoffbgg:hover .secimg1{
+      top:-80%;
+    }
+    
+    .secoffbgg:hover .secimg2{
+      top:-10%;
+    }
+    
+    .secoffbgg:hover .secimg3{
+      top:-20%;
+    }
+    
+    .secoffbgg:hover .secimg4{
+      top:-20%;
+    }
+  }
+
   @media only screen and (max-width:767px) {
     .offernew  .owl-nav{
       margin-top: 0px;
